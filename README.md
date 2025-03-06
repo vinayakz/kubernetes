@@ -36,11 +36,14 @@ Kubernetes runs containerized applications inside nodes, and each node can run m
     - However, the containers inside Pods run on the Node using Docker (or another container runtime). 
 
 
-IMG link
+![image](https://github.com/user-attachments/assets/91ce1e20-c00b-4c80-8180-7befac146c10)
+
 
 
 ## Worker Node and Deployment 
-img link 
+
+![image](https://github.com/user-attachments/assets/8140dcbe-f53c-42e7-b4a7-35db3ae10f2e)
+
 
 This architecture diagram represents a Kubernetes cluster with multiple namespaces running on a worker node. Below is a breakdown of its key components:
 
@@ -176,3 +179,11 @@ spec:
 If you create a Pod manually, it will run successfully, but if the Pod crashes or the Node fails, Kubernetes will NOT automatically restart it. 
 
 ### Deployment vs. Pod ("Process-Oriented Delivery")
+
+| Feature       | Pod Only      | Deployment  |
+| ------------- | ------------- | ----------  |
+| Auto-restart  | ❌ No         |   ✅ Yes   |
+| Scaling       | ❌ No         |  ✅ Yes (with replicas) |
+| Rolling updates | ❌ No       | ✅ Yes     |
+| Self-healing  | ❌ No         | ✅ Yes     |
+
