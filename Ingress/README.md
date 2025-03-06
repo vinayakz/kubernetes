@@ -129,7 +129,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - host: "tws.com"
+  - host: "xyz.com"
     http:
       paths:
       - path: /apache
