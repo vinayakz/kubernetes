@@ -4,7 +4,7 @@
 
 ### Pre-requisites to implement this project:
 -  Create 1 virtual machine on AWS with 2 CPU, 4GB of RAM (t2.medium)
-- Setup minikube on it <a href="https://github.com/LondheShubham153/kubestarter/blob/main/minikube_installation.md">Minikube setup</a>.
+- Setup minikube on it <a href="https://github.com/vinayakz/kubernetes/blob/master/minikube_installation.md">Minikube setup</a>.
 
 #
 
