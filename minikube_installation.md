@@ -133,4 +133,3 @@ minikube delete
 ---
 
 That's it! You've successfully installed Minikube on Ubuntu, and you can now start deploying Kubernetes applications for development and testing.
-```
