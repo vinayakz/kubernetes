@@ -77,4 +77,5 @@ A way to divide cluster resources among multiple users or teams. Think of it as 
 Think of this as the "front door" for external access to your applications, controlling how HTTP and HTTPS traffic should be routed to your services.
 
 ---
+CNI(Container network interface) :- CNI Plugins manage pod networking by providing IPs and enabling communication between pods (Pod to Pod networking)
 
