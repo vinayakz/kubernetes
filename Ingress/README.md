@@ -165,11 +165,11 @@ Open <b>/etc/hosts</b> file and add your minikube ip and domain name at the last
 #
 <b>11) Now, test the routing :</b>
 
-  - curl http://tws.com/apache to access the Apache service.
+  - curl http://xyz.com/apache to access the Apache service.
   ```bash
   curl http://xyz.com/apache
   ```
-  - curl http://tws.com/nginx to access the NGINX service.
+  - curl http://xyz.com/nginx to access the NGINX service.
   ```bash
   curl http://xyz.com/nginx
   ```
