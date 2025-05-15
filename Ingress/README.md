@@ -157,7 +157,7 @@ kubectl apply -f ingress.yaml
 #
 <b>10) To test the Ingress, map the hostname to the Minikube IP in your */etc/hosts* file :</b>
 ```bash
-echo "$(minikube ip) tws.com" | sudo tee -a /etc/hosts
+echo "$(minikube ip) xyz.com" | sudo tee -a /etc/hosts
 ```
 <center>OR</center>
 Open <b>/etc/hosts</b> file and add your minikube ip and domain name at the last.
@@ -167,11 +167,11 @@ Open <b>/etc/hosts</b> file and add your minikube ip and domain name at the last
 
   - curl http://tws.com/apache to access the Apache service.
   ```bash
-  curl http://tws.com/apache
+  curl http://xyz.com/apache
   ```
   - curl http://tws.com/nginx to access the NGINX service.
   ```bash
-  curl http://tws.com/nginx
+  curl http://xyz.com/nginx
   ```
 <center>OR</center>
 
