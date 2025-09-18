@@ -4,7 +4,7 @@ An "ImagePullBackOff" error in Kubernetes means that your Pod failed to pull the
 
 ## Error -> Pulling a Container image
 1. Invalid image or non existent image
-2. Private secure (ImagePullSecretes)
+2. Private secure (ImagePullSecretes) permission denied
 
 # Back-off delay
 The "back-off delay" is the waiting period Kubernetes uses before retrying an operation (like pulling an image) after it fails. It’s an exponential backoff algorithm, which means Kubernetes waits a bit longer after each failure before trying again.
